@@ -6,9 +6,9 @@ use std::time::Duration;
 use std::thread;
 use rppal::gpio::{Gpio, Error, OutputPin};
 
-const OFF_TIME_MEAN : f64 = 10000.0;
+const OFF_TIME_MEAN : f64 = 15000.0;
 const OFF_TIME_STD_DEV : f64 = 3000.0;
-const ON_TIME_MEAN : f64 = 15000.0;
+const ON_TIME_MEAN : f64 = 10000.0;
 const ON_TIME_STD_DEV : f64 = 1000.0;
 const START_ON : bool = true;
 const OUTPUT_PIN : u8 = 4;
